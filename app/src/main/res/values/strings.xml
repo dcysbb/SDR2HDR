@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SDR2HDR</string>
+    <string name="subtitle">将普通照片转换为 Ultra HDR JPEG</string>
+
+    <!-- Actions -->
+    <string name="pick_images">选择照片</string>
+    <string name="pick_images_hint">可选择多张照片批量转换</string>
+    <string name="convert_hdr">转换为 HDR</string>
+    <string name="convert_all">批量转换 (%1$d 张)</string>
+    <string name="test_image">测试图</string>
+    <string name="save_to_gallery">保存到相册</string>
+    <string name="save_all">全部保存</string>
+    <string name="share">分享</string>
+    <string name="cancel">取消</string>
+    <string name="clear_all">清空</string>
+    <string name="delete_photo">删除此照片</string>
+
+    <!-- Settings -->
+    <string name="hdr_strength">HDR 强度</string>
+    <string name="hdr_strength_value">%1$.1f×</string>
+    <string name="protect_skin">保护肤色和高光区域</string>
+
+    <!-- Labels -->
+    <string name="source_image">原图</string>
+    <string name="hdr_result">HDR 结果</string>
+    <string name="batch_results">已选照片</string>
+    <string name="image_count">已选择 %1$d 张照片</string>
+    <string name="image_detail">照片 %1$d / %2$d</string>
+
+    <!-- Status -->
+    <string name="status_start">选择一张或多张 SDR 照片开始</string>
+    <string name="status_loading">正在读取图片…</string>
+    <string name="status_loaded">已载入 %1$d × %2$d，拖动滑条可实时预览 HDR 强度</string>
+    <string name="status_read_failed">读取失败：%1$s</string>
+    <string name="status_pick_first">请先选择照片</string>
+    <string name="status_generating">正在生成 gain map…</string>
+    <string name="status_previewing">实时预览中…</string>
+    <string name="status_batch_progress">正在转换：%1$d / %2$d</string>
+    <string name="status_generated_hdr">✓ Ultra HDR 已生成</string>
+    <string name="status_generated_sdr">已生成 SDR 兼容图（需 Android 14+）</string>
+    <string name="status_convert_failed">转换失败：%1$s</string>
+    <string name="status_generate_first">请先生成 HDR 结果</string>
+    <string name="status_saving">正在保存…</string>
+    <string name="status_batch_saving">正在保存：%1$d / %2$d</string>
+    <string name="status_saved_hdr">已保存 Ultra HDR JPEG 到 Pictures/SDR2HDR</string>
+    <string name="status_saved_sdr">已保存普通 JPEG（需 Android 14+）</string>
+    <string name="status_save_failed">保存失败：%1$s</string>
+    <string name="status_batch_complete">批量转换完成：%1$d 张成功，%2$d 张失败</string>
+    <string name="status_deleted">已删除 1 张照片</string>
+    <string name="saved_gainmap_yes">✓ 含 gain map</string>
+    <string name="saved_gainmap_no">✗ 无 gain map</string>
+    <string name="status_test_ready">测试图已生成</string>
+    <string name="status_gainmap_stats">Gain map：最大 %1$d / 平均 %2$.1f / 有效 %3$.1f%%</string>
+    <string name="status_display_headroom">显示 headroom：%1$.2f×</string>
+    <string name="status_missing_uri">没有读到图片 Uri</string>
+
+    <!-- Errors -->
+    <string name="error_bad_size">图片尺寸无效</string>
+    <string name="error_decode_failed">解码失败</string>
+    <string name="error_empty_media_uri">MediaStore 返回空 Uri</string>
+    <string name="error_output_stream">无法打开输出流</string>
+    <string name="error_jpeg_encode">JPEG 编码失败</string>
+
+    <!-- Share -->
+    <string name="share_chooser_title">分享到</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+
+    <dimen name="card_corner_radius">16dp</dimen>
+    <dimen name="card_elevation">1dp</dimen>
+
+    <dimen name="button_corner_radius">12dp</dimen>
+    <dimen name="button_height">48dp</dimen>
+
+    <dimen name="preview_height">280dp</dimen>
+    <dimen name="batch_item_size">120dp</dimen>
+
+    <dimen name="seekbar_height">40dp</dimen>
+
+    <dimen name="title_text_size">28sp</dimen>
+    <dimen name="subtitle_text_size">14sp</dimen>
+    <dimen name="body_text_size">14sp</dimen>
+    <dimen name="label_text_size">12sp</dimen>
+</resources>
